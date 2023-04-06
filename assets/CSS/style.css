@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Sets the position of the body to relative */
+  position: relative;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px
+  background-color="green";
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px;
+  text-align: center;
+}
+
+main {
+  /* Adds padding to the top of the main element equal to height of fixed header */
+  padding-top: 100px;
+}
+
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  /* Margin property */
+  margin: 10px;
+  /* Padding property */
+  padding: 60px;
+  /* Border property */
+  border: 9px solid darkblue;
+}
+
+header {
+  /* Sets header position to fixed */
+  position: fixed;
+  /* Positions header 0 length from top of page */
+  top: 0;
+  /* Sets the stack order of the header */
+  width: 100%;
+  height: 100px;
+  border-bottom: 10px solid darkblue;
+  background-color: lightblue;
+  text-align: right;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 25px auto;
+  border: 15px solid black;
+}
+
+li {
+display: inline;
+padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  text-align: center;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #26eabf;
+  color: #fff;
+}
